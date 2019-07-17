@@ -1,6 +1,6 @@
 #include <reg52.h>
 #include "IIC.h"
-unsigned int temper = 0;
+int temper = 0;
 unsigned char code num[10] = {0x3f, 0x06, 0x5b, 0x4f, 0x66, 0x6d, 0x7d, 0x07, 0x7f, 0x6f};
 unsigned char DisplayData[5];
 
