@@ -31,7 +31,7 @@ void delay(unsigned int time)
 void DigDisplay()
 {
     unsigned char i, j = 150;
-    while (j--)
+    while (j--) //you should delay here or you cannot read the temperature .if you delay in the main ,the digital cannnot keep stable.
         for (i = 0; i < 5; i++)
         {
             switch (i)
